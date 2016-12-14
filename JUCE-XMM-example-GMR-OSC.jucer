@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ayuBbq" name="JUCE-XMM-example-GMR-OSC" projectType="guiapp"
+              version="1.0.0" bundleIdentifier="com.ircam.JUCE-XMM-example-GMR-OSC"
+              includeBinaryInAppConfig="1" jucerVersion="4.3.0">
+  <MAINGROUP id="o1FJbg" name="JUCE-XMM-example-GMR-OSC">
+    <GROUP id="{65188E44-A321-A64A-560C-67785D316A75}" name="xmm">
+      <GROUP id="{03BB3A9C-53C9-CB5E-90A4-28111698EBD1}" name="dependencies">
+        <GROUP id="{255E303E-E1B5-90A6-E074-69BF8B036DDE}" name="jsoncpp">
+          <GROUP id="{92504A98-6F6D-231A-74CE-6B95AC48BEBB}" name="src">
+            <FILE id="tf8Up3" name="json_reader.cpp" compile="1" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/src/json_reader.cpp"/>
+            <FILE id="AeLBGX" name="json_tool.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/src/json_tool.h"/>
+            <FILE id="NPlNCC" name="json_value.cpp" compile="1" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/src/json_value.cpp"/>
+            <FILE id="xpJHMv" name="json_valueiterator.inl" compile="0" resource="0"
+                  file="Dependencies/xmm/dependencies/jsoncpp/src/json_valueiterator.inl"/>
+            <FILE id="zzwmjv" name="json_writer.cpp" compile="1" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/src/json_writer.cpp"/>
+          </GROUP>
+          <GROUP id="{F0ED3820-E2E5-4C42-EEE6-E094C754C90A}" name="include">
+            <FILE id="MemacQ" name="assertions.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/assertions.h"/>
+            <FILE id="pAYjRi" name="autolink.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/autolink.h"/>
+            <FILE id="rk2W74" name="config.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/config.h"/>
+            <FILE id="ZPe6A9" name="forwards.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/forwards.h"/>
+            <FILE id="xxjwcb" name="json-features.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/json-features.h"/>
+            <FILE id="uLIkCk" name="json.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/json.h"/>
+            <FILE id="dzuuC6" name="reader.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/reader.h"/>
+            <FILE id="xyBhbn" name="value.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/value.h"/>
+            <FILE id="hWPJnC" name="version.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/version.h"/>
+            <FILE id="GDhHBS" name="writer.h" compile="0" resource="0" file="Dependencies/xmm/dependencies/jsoncpp/include/writer.h"/>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{E1D715CC-B118-4F7F-5020-DDB869C45533}" name="src">
+        <GROUP id="{9DAAE43E-A969-D9D0-FFD0-1743BF73A5C1}" name="core">
+          <GROUP id="{DA1BD41D-B87D-E3EC-F425-C194E2334ED5}" name="common">
+            <FILE id="KjUeiA" name="xmmAttribute.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/core/common/xmmAttribute.cpp"/>
+            <FILE id="ZpN5HI" name="xmmAttribute.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/common/xmmAttribute.hpp"/>
+            <FILE id="hgf7dP" name="xmmCircularbuffer.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/common/xmmCircularbuffer.hpp"/>
+            <FILE id="pvSvB5" name="xmmEvents.hpp" compile="0" resource="0" file="Dependencies/xmm/src/core/common/xmmEvents.hpp"/>
+            <FILE id="JDPHin" name="xmmJson.cpp" compile="1" resource="0" file="Dependencies/xmm/src/core/common/xmmJson.cpp"/>
+            <FILE id="FyJCmq" name="xmmJson.hpp" compile="0" resource="0" file="Dependencies/xmm/src/core/common/xmmJson.hpp"/>
+            <FILE id="T6hmqk" name="xmmMatrix.hpp" compile="0" resource="0" file="Dependencies/xmm/src/core/common/xmmMatrix.hpp"/>
+          </GROUP>
+          <GROUP id="{8A5051C4-A5BD-C7E5-8268-676A1BEC9076}" name="distributions">
+            <FILE id="mIpntr" name="xmmGaussianDistribution.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/core/distributions/xmmGaussianDistribution.cpp"/>
+            <FILE id="k4mTac" name="xmmGaussianDistribution.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/distributions/xmmGaussianDistribution.hpp"/>
+          </GROUP>
+          <GROUP id="{21DFE6D4-D8FD-181B-A701-38DD4754D73A}" name="model">
+            <FILE id="JLYhHN" name="xmmModel.hpp" compile="0" resource="0" file="Dependencies/xmm/src/core/model/xmmModel.hpp"/>
+            <FILE id="gqUBN7" name="xmmModelConfiguration.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/model/xmmModelConfiguration.hpp"/>
+            <FILE id="P5rr6h" name="xmmModelParameters.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/model/xmmModelParameters.hpp"/>
+            <FILE id="Cppjqj" name="xmmModelResults.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/model/xmmModelResults.hpp"/>
+            <FILE id="FajKma" name="xmmModelSharedParameters.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/core/model/xmmModelSharedParameters.cpp"/>
+            <FILE id="nIyrk8" name="xmmModelSharedParameters.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/model/xmmModelSharedParameters.hpp"/>
+            <FILE id="VnHYb8" name="xmmModelSingleClass.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/core/model/xmmModelSingleClass.cpp"/>
+            <FILE id="CDAeMQ" name="xmmModelSingleClass.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/model/xmmModelSingleClass.hpp"/>
+          </GROUP>
+          <GROUP id="{353D59FE-DAA4-9133-9080-8933494627FF}" name="trainingset">
+            <FILE id="wm5RYU" name="xmmPhrase.cpp" compile="1" resource="0" file="Dependencies/xmm/src/core/trainingset/xmmPhrase.cpp"/>
+            <FILE id="Bv1x8n" name="xmmPhrase.hpp" compile="0" resource="0" file="Dependencies/xmm/src/core/trainingset/xmmPhrase.hpp"/>
+            <FILE id="QV33Ar" name="xmmTrainingSet.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/core/trainingset/xmmTrainingSet.cpp"/>
+            <FILE id="M06nOP" name="xmmTrainingSet.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/core/trainingset/xmmTrainingSet.hpp"/>
+          </GROUP>
+        </GROUP>
+        <GROUP id="{E595B99D-5395-A741-6662-0D5237710CBF}" name="models">
+          <GROUP id="{440F32AF-BB21-6B82-C329-322DF6B9DC4B}" name="gmm">
+            <FILE id="dWgAwv" name="xmmGmm.cpp" compile="1" resource="0" file="Dependencies/xmm/src/models/gmm/xmmGmm.cpp"/>
+            <FILE id="iZpNiR" name="xmmGmm.hpp" compile="0" resource="0" file="Dependencies/xmm/src/models/gmm/xmmGmm.hpp"/>
+            <FILE id="zU6AB1" name="xmmGmmParameters.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/models/gmm/xmmGmmParameters.cpp"/>
+            <FILE id="GmGnGT" name="xmmGmmParameters.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/gmm/xmmGmmParameters.hpp"/>
+            <FILE id="R1PXp9" name="xmmGmmSingleClass.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/models/gmm/xmmGmmSingleClass.cpp"/>
+            <FILE id="o9pl3t" name="xmmGmmSingleClass.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/gmm/xmmGmmSingleClass.hpp"/>
+          </GROUP>
+          <GROUP id="{34D4D053-92AB-3010-483F-9CC2E8195B51}" name="hmm">
+            <FILE id="z3pci2" name="xmmHierarchicalHmm.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/models/hmm/xmmHierarchicalHmm.cpp"/>
+            <FILE id="CcKIgs" name="xmmHierarchicalHmm.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/hmm/xmmHierarchicalHmm.hpp"/>
+            <FILE id="trBULq" name="xmmHmmParameters.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/models/hmm/xmmHmmParameters.cpp"/>
+            <FILE id="V3ofsf" name="xmmHmmParameters.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/hmm/xmmHmmParameters.hpp"/>
+            <FILE id="NM00Xs" name="xmmHmmResults.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/hmm/xmmHmmResults.hpp"/>
+            <FILE id="gVefzd" name="xmmHmmSingleClass.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/models/hmm/xmmHmmSingleClass.cpp"/>
+            <FILE id="dhnGxp" name="xmmHmmSingleClass.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/hmm/xmmHmmSingleClass.hpp"/>
+          </GROUP>
+          <GROUP id="{FF1D59BE-BEF6-601C-0BEB-534C341A7C3A}" name="kmeans">
+            <FILE id="wMSIpy" name="xmmKMeans.cpp" compile="1" resource="0" file="Dependencies/xmm/src/models/kmeans/xmmKMeans.cpp"/>
+            <FILE id="jwqhX1" name="xmmKMeans.hpp" compile="0" resource="0" file="Dependencies/xmm/src/models/kmeans/xmmKMeans.hpp"/>
+            <FILE id="rNIl7A" name="xmmKMeansParameters.cpp" compile="1" resource="0"
+                  file="Dependencies/xmm/src/models/kmeans/xmmKMeansParameters.cpp"/>
+            <FILE id="QLfEef" name="xmmKMeansParameters.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/kmeans/xmmKMeansParameters.hpp"/>
+            <FILE id="uTy1U5" name="xmmKMeansResults.hpp" compile="0" resource="0"
+                  file="Dependencies/xmm/src/models/kmeans/xmmKMeansResults.hpp"/>
+          </GROUP>
+        </GROUP>
+        <FILE id="gd7pKy" name="xmm.h" compile="0" resource="0" file="Dependencies/xmm/src/xmm.h"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{C0A11612-3504-047E-9480-5BEAC224D8DD}" name="Source">
+      <FILE id="vvAxYP" name="GmrWrapper.h" compile="0" resource="0" file="Source/GmrWrapper.h"/>
+      <FILE id="m66AWb" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="nzqkiZ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" smallIcon="" bigIcon="">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="XMM-GMR-OSC"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="XMM-GMR-OSC"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../modules"/>
+        <MODULEPATH id="juce_video" path="../../modules"/>
+        <MODULEPATH id="juce_opengl" path="../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_osc" path="../../modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2015 targetFolder="Builds/VisualStudio2015">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="XMMFM"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="3" targetName="XMMFM"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../modules"/>
+        <MODULEPATH id="juce_video" path="../../modules"/>
+        <MODULEPATH id="juce_opengl" path="../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_osc" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2015>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="XMMFM"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="XMMFM"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../modules"/>
+        <MODULEPATH id="juce_video" path="../../modules"/>
+        <MODULEPATH id="juce_opengl" path="../../modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_osc" path="../../modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

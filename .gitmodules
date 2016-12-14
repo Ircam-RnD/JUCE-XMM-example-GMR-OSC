@@ -1,0 +1,3 @@
+[submodule "Dependencies/xmm"]
+	path = Dependencies/xmm
+	url = http://github.com/Ircam-RnD/xmm.git
